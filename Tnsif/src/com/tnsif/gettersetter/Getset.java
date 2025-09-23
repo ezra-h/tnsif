@@ -3,25 +3,17 @@ package com.tnsif.gettersetter;
 public class Getset {
     private String name;
     private int age;
-
-    // Getter for name
     public String getName() {
         return name;
     }
-
-    // Setter for name
     public void setName(String name) {
-        this.name = name;   // 'this' distinguishes instance variable
-    }
-
-    // Getter for age
+        this.name = name;  
+    } 
     public int getAge() {
         return age;
     }
-
-    // Setter for age
     public void setAge(int age) {
-        if(age > 0) {   // validation example
+        if(age > 0) {  
             this.age = age;
         }
     }

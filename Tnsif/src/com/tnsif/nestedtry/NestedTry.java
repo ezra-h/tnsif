@@ -5,11 +5,10 @@ public class NestedTry {
         System.out.println("Program starts...");
 
         try {
-            // Outer try block
+           
             int[] numbers = {10, 20, 30};
 
-            try {
-                // Inner try block 1
+            try {                
                 int a = 10, b = 0;
                 int result = a / b;  
                 System.out.println("Result: " + result);
@@ -17,8 +16,7 @@ public class NestedTry {
                 System.out.println("Caught ArithmeticException: " + e);
             }
 
-            try {
-                // Inner try block 2
+            try {              
                 int value = numbers[5];  
                 System.out.println("Value: " + value);
             } catch (ArrayIndexOutOfBoundsException e) {
@@ -26,7 +24,6 @@ public class NestedTry {
             }
 
         } catch (Exception e) {
-            // Outer catch handles any other exceptions
             System.out.println("Outer catch: " + e);
         }
 

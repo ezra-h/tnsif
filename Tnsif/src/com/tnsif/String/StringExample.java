@@ -6,15 +6,11 @@ public class StringExample {
         String str = "Hello";
         str = str + " World";  
         System.out.println("String Example: " + str);
-
-        // ----- StringBuffer Example -----
         StringBuffer sb = new StringBuffer("Hello");
         sb.append(" World");  
         sb.insert(6, "Java "); 
         sb.reverse();          
         System.out.println("StringBuffer Example: " + sb);
-
-        // ----- StringBuilder Example -----
         StringBuilder sb2 = new StringBuilder("Hello");
         sb2.append(" World");  
         sb2.replace(6, 11, "Java"); 

@@ -7,11 +7,8 @@ public class Multiplecatch {
         try {
             int[] numbers = {10, 20, 30};
             int a = 10, b = 0;
-
-            // Uncomment one at a time to see different exceptions
-
-         //   int result = a / b;              // ArithmeticException
-            // int value = numbers[5];      // ArrayIndexOutOfBoundsException
+            int result = a / b;              // ArithmeticException
+            int value = numbers[5];      // ArrayIndexOutOfBoundsException
              String str = null; 
              System.out.println(str.length()); // NullPointerException
 

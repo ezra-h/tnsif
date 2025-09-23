@@ -3,10 +3,10 @@ package com.tnsif.evenorodd;
 	import java.util.Scanner;
 	public class evenorodd{
 		public static void main(String []args) {
-			Scanner input = new Scanner(System.in);  // Create Scanner object
+			Scanner input = new Scanner(System.in); 
 
 	        System.out.print("Enter a number: ");
-	        int number = input.nextInt();  // Take number input at runtime
+	        int number = input.nextInt(); 
 
 	        if (number % 2 == 0) {
 	            System.out.println(number + " is even.");
@@ -14,7 +14,7 @@ package com.tnsif.evenorodd;
 	            System.out.println(number + " is odd.");
 	        }
 
-	        input.close();  // Close the Scanner
+	        input.close(); 
 	    }
 	}
 
